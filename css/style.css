@@ -1,30 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-/*=== MEDIA QUERY ===*/ /*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.PRELOADER & BOUNCE CCS STYLE
-* 03.HOMEPAGE CSS STYLE
-    -LOGO CSS
-    -MENU CSS
-* 04.ABOUT CSS STYLE
-* 05.SERVICE CSS STYLE
-* 06.WORK CSS STYLE
-* 07.AVAILABLE CSS STYLE
-* 08.CONTACT CSS STYLE
-* 09.FOOTER CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 body {
   font-size: 16px;
@@ -651,6 +624,7 @@ INner Pages
 -----------------------------*/
 #intro {
   padding-bottom: 0px;
+  background: url(../images/bg/2.png);
 }
 
 .intro-img {
@@ -710,6 +684,7 @@ INner Pages
 #about {
   position: relative;
   padding-bottom: 85px;
+  background: url(../images/bg/fon-bg.jpg);
 }
 
 .about-bg-img {
