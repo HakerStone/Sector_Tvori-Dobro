@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   font-family: "Rubik", sans-serif;
-  color: #788487;
+  color: black;
   position: relative;
 }
 
@@ -296,7 +296,7 @@ h5.subtitle {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 112, 0, 0.5);
 }
 
 .brown-overlay {
@@ -624,7 +624,7 @@ INner Pages
 -----------------------------*/
 #intro {
   padding-bottom: 0px;
-  background: url(../images/bg/2.png);
+  background: url(../images/bg/2.png) #90EE90;
 }
 
 .intro-img {
@@ -853,6 +853,7 @@ HISTORY MISSION
 #service {
   margin-top: -100px;
   padding-bottom: 70px;
+  background: url(../images/bg/fon-bg.jpg);
 }
 
 .service-box .service-img-icon {
@@ -1200,6 +1201,7 @@ input[type=email] {
 
 .blog-block img {
   margin-bottom: 10px;
+  height: 400px;
 }
 
 .blog-text {
@@ -1332,8 +1334,8 @@ BLOG SINGLE
 #footer {
   padding-bottom: 60px;
   position: relative;
-  background: url("../images/bg/2.png");
-  border-top: 1px solid #eee;
+  background: url("../images/bg/2.png") #90EE90;
+  border-top: 1px solid #90EE90;
 }
 
 .footer-widget ul li {
@@ -1381,7 +1383,7 @@ BLOG SINGLE
   letter-spacing: 1px;
   padding-top: 30px;
   margin-top: 30px;
-  border-top: 1px solid #eee;
+  border-top: 2px solid #90EE90;
 }
 
 .footer-text h6 {
