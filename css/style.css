@@ -691,7 +691,7 @@ INner Pages
   position: absolute;
   right: 0px;
   content: "";
-  background: url("../images/banner/1.jpg") 50% 50%;
+  background: url(../logo.png) 50% -70%;
   width: 40%;
   height: 100%;
   max-height: 560px;
