@@ -9,7 +9,7 @@
         if ( empty($name) OR empty($message) OR empty($subject) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo '<p class="alert alert-danger">Please complete the form and try again.</p>';
+            echo '<p class="alert alert-danger">Пожалуйста, заполните форму и повторите попытку.</p>';
             exit;
         }
 
@@ -26,10 +26,10 @@
             echo '<p class="alert alert-success">Ваше обращение отправлено!</p>';
         } else {
             http_response_code(500);
-            echo '<p class="alert alert-danger">Oops! Something went wrong, we couldn\'t send your message.</p>';
+            echo '<p class="alert alert-danger">Упс! Что-то пошло не так, мы не смогли отправить ваше сообщение.</p>';
         }
     } else {
         http_response_code(403);
-        echo '<p class="alert alert-danger">There was a problem with your submission, please try again.</p>';
+        echo '<p class="alert alert-danger">Возникла проблема с вашей отправкой, пожалуйста, повторите попытку.</p>';
     }
 ?>
