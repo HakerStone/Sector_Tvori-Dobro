@@ -839,7 +839,7 @@ HISTORY MISSION
 
 #service-head {
   padding-bottom: 100px;
-  padding-top: 90px;
+  padding-top: 60px;
 }
 
 #service-head .section-title {
@@ -852,6 +852,7 @@ HISTORY MISSION
 
 #service {
   margin-top: -100px;
+  padding-top: 45px;
   padding-bottom: 70px;
   background: url(../images/bg/fon-bg.jpg);
 }
@@ -865,7 +866,7 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #90EE90;
+  background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -1395,7 +1396,7 @@ BLOG SINGLE
 }
 
 .footer-text p.mail {
-  color: #90EE90;
+  color: #000000;
 }
 
 .bg-main {
@@ -1403,7 +1404,7 @@ BLOG SINGLE
 }
 
 .footer-widget a {
-  color: #999;
+  color: #000000;
 }
 
 /*-------------------------------
@@ -1716,3 +1717,16 @@ BLOG SINGLE
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.light-text{
+  color: white;
+}
+
+.black-text{
+  color: black;
+}
+
+.yandex_map{
+  text-align:center;
+  width:100%;
+}
